@@ -1,30 +1,77 @@
-header, nav, main, aside, footer {
+body {
+    background-color: #222222;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #FF4500;
+    text-align: center;
     padding: 20px;
-    margin: 10px;
-    background: white;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    color: #FFFFFF;
+    margin: 0;
+}
+
+header img {
+    width: 120px;
+    margin-top: 10px;
+}
+
+nav {
+    background-color: #000000;
+    padding: 15px;
+    text-align: center;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
+    margin: 0;
 }
 
 nav ul li {
     display: inline;
-    margin-right: 15px;
+    margin-right: 25px;
 }
 
 nav a {
+    color: #FF4500;
     text-decoration: none;
-    color: #333;
-    font-weight: bold;
-}
-img{
-size: 50px;
+    font-weight: 800; /*[cite: 25] */
 }
 
-#logoheader{
-    size: 50px;
+main {
+    margin: 20px auto; /* Centrado horizontal[cite: 23] */
+    width: 80%;
+    background-color: #333333;
+    padding: 20px;
+    border: 2px solid #FF4500; /*[cite: 25] */
+}
+
+section {
+    border-bottom: 1px solid #555555;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+h2, h3 {
+    color: #FF4500;
+}
+
+article img {
+    width: 100%;
+    margin-top: 15px;
+}
+
+footer {
+    background-color: #000000;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
+    border-top: 3px solid #FF4500;
 }
